@@ -1,8 +1,8 @@
 import React from 'react'
-import {pureAddUserCallback} from '../HW3'
+import {pureAddUserCallback, UserType} from '../HW3'
 
-let initialState: any[]
-const setName = (a: any[]) => {
+let initialState: UserType[]
+const setName = (a: UserType[]) => {
     initialState = a
 }
 
@@ -14,5 +14,5 @@ test('name 1', () => {
     pureAddUserCallback('name', setName, initialState)
     expect(initialState.length).toBe(1)
     expect(initialState[0].name).toBe('name')
-    expect(!!initialState[0]._id).toBe(true)
+    expect(!!initialState[0].id).toBe(true)
 })

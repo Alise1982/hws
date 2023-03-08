@@ -47,7 +47,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     const [error, setError] = useState<string>('') // need to fix any
 
     const setNameCallback = (event: ChangeEvent<HTMLInputElement>) => {
-        setName(event.currentTarget.value.trim())
+        setName(event.currentTarget.value)
         // need to fix any
         // setName('some name') // need to fix
         error && setError('')

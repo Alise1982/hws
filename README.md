@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-[//]: # ("homepage": "https://github.com/Alise1982/hw3.git",)
+[//]: # 
 ### `npm start`
 
 Runs the app in the development mode.\

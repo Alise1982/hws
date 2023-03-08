@@ -1,7 +1,7 @@
 {
   "name": "hws2",
   "version": "0.1.0",
-
+  "homepage": "https://github.com/Alise1982/hw3.git",
   "private": true,
   "dependencies": {
     "@emotion/react": "11.10.4",

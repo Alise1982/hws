@@ -11,6 +11,18 @@
 }
 
 .red {
+
+    background-color: #cc0000;
+    border: none;
+    color: #FFFFFF;
+    padding: 5px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
 .default:hover {
@@ -30,6 +42,7 @@
 }
 
 .red:active {
+
 }
 
 .button:disabled {
